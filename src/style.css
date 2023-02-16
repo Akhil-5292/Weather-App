@@ -1,0 +1,32 @@
+body{
+  background-image: url('https://images.theconversation.com/files/442675/original/file-20220126-17-1i0g402.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop');
+ 
+  background-size: cover;
+}
+
+.weaterWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+.header h1{
+ 
+  font-size: 40px;
+}
+.SearchFilter{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 4rem 0;
+ 
+}
+.weatherCard{
+  display: flex;
+  justify-content: center;
+}
